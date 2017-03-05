@@ -39,7 +39,7 @@ navs:
     label: 维基
     
   -
-    href:/blog/
+    href:/
     label:博客
   -
     href: /links/
