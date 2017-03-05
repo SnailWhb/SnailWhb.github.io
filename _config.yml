@@ -36,11 +36,8 @@ navs:
 
   -
     href: /wiki/
-    label: 维基
+    label: 博客
     
-  -
-    href:/
-    label:博客
   -
     href: /links/
     label: 链接
