@@ -1,6 +1,10 @@
 # 码志
 
+<<<<<<< HEAD
 我的个人博客：<https://snailwhb.github.io/>，欢迎 Star 和 Fork。
+=======
+我的个人博客：<http://SnailWhb.github.io/>，欢迎 Star 和 Fork。
+>>>>>>> origin/master
 
 ## 概览
 
