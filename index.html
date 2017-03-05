@@ -1,56 +1,64 @@
 ---
 layout: default
 ---
-<section class="previews">
-  <div>
-    {% for post in paginator.posts %}
-      <figure class="absolute-bg preview__img" style="background-image: url('{{ post.image }}');"></figure>
-    {% endfor %}
-    <div class="previews__container">
-      <span>Welcome to</span>
-      <h1>{{ site.title }}</h1>
-    </div>
-  </div>
-
-  <div>
-    <header>
-      <ul class="tabs">
-        <li class="tabs__item">Posts</li>
-        <li class="tabs__item">Categories</li>
-      </ul>
-    </header>
-
-    <div class="tab">
-      <ul itemscope itemtype="http://schema.org/Blog">
-        {% for post in paginator.posts %}
-          <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-            <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
-              <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
-              <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
-              <p class="preview__excerpt" itemprop="description">{{ post.content | strip_html | truncatewords: 30 }}</p>
-              <span class="preview__more">Read More</span>
+<div id="index" class="row">
+  <div class="col-sm-9">
+    <div class="post-area">
+      <!-- small button -->
+     <!--  <p class="pull-right visible-xs">
+       <button>toggle</button>
+     </p> -->
+      <div class="post-list-header">
+        Posts
+      </div>
+      <div class="post-list-body">
+        
+        <div class="all-posts" post-cate="All">
+          {% for post in site.posts %}
+            <a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">
+              <h2>
+              {{ post.title }}
+              </h2>
+              <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
             </a>
-          </li>
-        {% endfor %}
-      </ul>
-
-      {% if paginator.total_pages > 1 %}
-        <div class="pagination">
-          {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
-          {% endif %}
-
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
-          {% endif %}
+          {% endfor %}
         </div>
-      {% endif %}
-
-      {% include archive-link.html %}
+        <!-- <div class="posts-in-categories"> -->
+        {% for category in site.categories %}
+          <div post-cate="{{category | first}}">
+            {% for posts in category  %}
+              {% for post in posts %}
+                {% if post.url %}
+                  <a href="{{ post.url }}" class="post-list-item">
+                    <h2>
+                    {{ post.title }}
+                    </h2>
+                    <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
+                  </a>
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+          </div>
+        {% endfor %}
+        
+        <!-- </div> -->
+      </div>
     </div>
-
-    {% include categories-tab.html %}
-
   </div>
-
-</section>
+  <div class="col-sm-3">
+    <div class="shadow-corner-curl hidden-xs">
+      <div class="categories-list-header">
+        Categories
+      </div>
+      
+      <a href="javascript:;" class="categories-list-item" cate="All">
+        All<span class="my-badge"> {{site.categories | size}}</span>
+      </a>
+      {% for category in site.categories %}
+        <a href="javascript:;" class="categories-list-item" cate="{{ category | first }}">
+          {{ category | first }} <span class="my-badge">{{ category | last | size }}</span>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
