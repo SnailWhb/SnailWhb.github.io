@@ -5,22 +5,22 @@ baseurl:
 url: http://mazhuang.org
 date_format: "ordinal"
 title: 灬丶斌 视野
-subtitle: "慢慢的"
+subtitle: "慢慢地Will"
 description: "斌博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+keywords: 视野, Wang huobin,Snail 
 favicon: /favicon.ico
-timezone: Asia/Shanghai
+timezone: Asia/Beijing
 encoding: "utf-8"
 side_bar_repo_limit: 5
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: Wang huobin
 organization: Sogou, Inc.
 organization_url: https://www.sogou.com
 location: Beijing, China
-email: chumpma@gmail.com
+email: whb@bupt.edu.cn
 
 # ---------------- #
 #    Navigation    #
@@ -82,12 +82,12 @@ repository: mzlogin/mzlogin.github.io
 # ---------------- #
 #      Socials     #
 # ---------------- #
-github_username: mzlogin
-douban_username: freedim
-facebook_username: mzlogin
-weibo_username: mzlogin
-zhihu_username: mzlogin
-twitter_username: mzlogin
+github_username: SnailWhb
+douban_username: SnailWhb
+facebook_username: SnailWhb
+weibo_username: SnailWhb
+zhihu_username:SnailWhb
+twitter_username: SnailWhb
 
 # ---------------- #
 #      Comments    #
@@ -96,8 +96,8 @@ twitter_username: mzlogin
 comments_provider: disqus
 # !!!重要!!! 请修改下面两个用户名为你自己申请的
 # !!!Important!!! Please modify usernames below to yours
-duoshuo_username: mazhuang
-disqus_username: mzlogin
+duoshuo_username: whb
+disqus_username: SnailWhb
 # 在使用 disqus 的时候可点击显示多说评论框
 lazy_load_duoshuo: true
 
