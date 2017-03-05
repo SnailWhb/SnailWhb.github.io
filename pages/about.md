@@ -5,7 +5,8 @@ description: 混沌的世界，有序的人生
 keywords:Snail,Whb 视野
 comments: true
 menu: 关于
-permalink: /about/
+permalink: 
+#about
 ---
 
 I am bin，one happy snail。
