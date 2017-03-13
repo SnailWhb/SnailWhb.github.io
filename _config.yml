@@ -5,8 +5,8 @@ baseurl:
 url:https://snailwhb.github.io/
 date_format: "ordinal"
 title: 灬丶斌 视野
-subtitle: "Snail"
-description: "斌博客"
+subtitle: Snail
+description: "斌博客"                    
 keywords: 视野, Wang huobin,Snail 
 favicon: /favicon.ico
 timezone: Asia/Beijing
