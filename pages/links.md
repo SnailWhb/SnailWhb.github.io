@@ -8,7 +8,7 @@ menu: 链接
 permalink: /links/
 ---
 
-> God made relatives. Thank God we can choose our friends.
+> 链接拉近你我的距离. Thank God we can choose our friends.
 
 * GitHub：[@SnaiWhb](https://github.com/SnailWhb)
 * 博客：[灬丶斌视野](http://blog.sina.com.cn/u/2517674831)
