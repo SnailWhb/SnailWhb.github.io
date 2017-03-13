@@ -35,7 +35,7 @@ navs:
     label: 分类
 
   -
-    href: /wiki/
+    href: /blog/
     label: 博客
     
   -
@@ -75,7 +75,7 @@ gems:
 collections:
     wiki:
         output: true
-        permalink: /wiki/:path/
+        permalink: /blog/:path/
 
 repository: SnailWhb/SnailWhb.github.io
 
