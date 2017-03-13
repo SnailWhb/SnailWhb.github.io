@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://mazhuang.org
+url:https://snailwhb.github.io/
 date_format: "ordinal"
 title: 灬丶斌 视野
 subtitle: "慢慢地Will"
@@ -17,8 +17,7 @@ side_bar_repo_limit: 5
 #      Author      #
 # ---------------- #
 author: Wang huobin
-organization: Sogou, Inc.
-organization_url: https://www.sogou.com
+organization: Bupt, School.
 location: Beijing, China
 email: whb@bupt.edu.cn
 
