@@ -6,12 +6,10 @@ keywords:Snail,Whb 视野
 comments: true
 menu: 关于
 permalink: /about/
-
 ---
 
-I am bin，one happy snail。
+I am Whb，one happy snail.
 
-仰慕「优雅编码的艺术」。
 
 ## 坚信
 * 乐观的人生总不会太过糟糕
