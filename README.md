@@ -1,33 +1,54 @@
+<<<<<<< HEAD
 #斌视野
 
 我的个人博客：<http://SnailWhb.github.io/>，欢迎 Star 和 Fork。
+=======
+# About
 
-## 概览
+This is my blog based on jekyll. And I change the style and interactive. If you want to use this model of the blog. **Please give a star at this repository**. Then you can clone it as your blog model.
+>>>>>>> origin/master
 
+You can visit [here](http://gaohaoyang.github.io) to see this blog.
+
+<<<<<<< HEAD
 <!-- vim-markdown-toc GFM -->
 * [Fork 指南](#fork-指南)
 * [贴心提示](#贴心提示)
 * [经验与思考](#经验与思考)
 * [致谢](#致谢)
+=======
+---
+>>>>>>> origin/master
 
-<!-- vim-markdown-toc -->
+这是我的博客，基于 jekyll。我改了所有默认的样式和交互。如果你想使用这个博客模板。**请先在这个仓库上点个star吧**，这也是对我的肯定和鼓励，谢谢了。然后你可以克隆这个仓库用作你自己的博客。
 
+<<<<<<< HEAD
 ## Fork 指南
+=======
+博客访问地址：[点击这里](http://gaohaoyang.github.io)
 
-Fork 本项目之后，还需要做一些事情才能让你的页面「正确」跑起来。
+**使用时请注明模板来源:  Jekyll theme by [Gaohaoyang](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
 
-1. 正确设置项目名称与分支。
+<!--
 
-   按照 GitHub Pages 的规定，名称为 `username.github.io` 的项目的 master 分支，或者其它名称的项目的 gh-pages 分支可以自动生成 GitHub Pages 页面。
+## 被引用信息
+>>>>>>> origin/master
 
-2. 修改域名。
+使用了我的模板并写明来源的人：   
 
-   如果你需要绑定自己的域名，那么修改 CNAME 文件的内容；如果不需要绑定自己的域名，那么删掉 CNAME 文件。
+* [dreamholy](http://dreamholy.github.io/)
 
-3. 修改配置。
+没有注明来源的人：
 
-   网站的配置基本都集中在 \_config.yml 文件中，将其中与个人信息相关的部分替换成你自己的，比如网站的 title、subtitle、duoshuo 和 Disqus 的用户名等。
+* [yangshuailing](http://yangshuailing.github.io/com/)
+* [huapu728](http://huapu728.github.io/)
+* [greatbuger](http://greatbuger.github.io/) 
 
+
+-->
+
+
+<<<<<<< HEAD
    **注意：** 因为 Disqus 处理用户名与域名白名单的策略存在缺陷，请一定将 disqus\_username 修改成你自己的。我对该缺陷的记录见 [Issues#2][3]。
 
 4. 删除我的文章与图片。
@@ -70,3 +91,5 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 [1]: https://github.com/mzlogin/chinese-copywriting-guidelines
 [2]: https://help.github.com/articles/setting-up-your-pages-site-locally-with-jekyll/
 [3]: https://github.com/mzlogin/mzlogin.github.io/issues/2
+=======
+>>>>>>> origin/master
