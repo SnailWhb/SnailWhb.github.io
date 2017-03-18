@@ -2,25 +2,25 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://mazhuang.org
+url: http://SnailWhb.github.io
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+title: 灬丶斌视野
+subtitle: "，吾将上下而求索"
+description: "斌的个人博客"
+keywords: 视野,  灬斌, Snail
 favicon: /favicon.ico
-timezone: Asia/Shanghai
+timezone: beijing
 encoding: "utf-8"
 side_bar_repo_limit: 5
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: Sogou, Inc.
-organization_url: https://www.sogou.com
+author: wang huobin
+organization: bupt, Inc.
+organization_url: http://www.bupt.edu.cn/
 location: Beijing, China
-email: chumpma@gmail.com
+email: whb@bupt.edu.cn
 
 # ---------------- #
 #    Navigation    #
@@ -32,19 +32,19 @@ navs:
 
   -
     href: /categories/
-    label: 分类
+    label: Categories
 
   -
     href: /wiki/
-    label: 维基
+    label: Blog
 
   -
     href: /links/
-    label: 链接
+    label: Links
 
   -
     href: /about/
-    label: 关于
+    label: Me
 
 # ---------------- #
 #       RSS        #
@@ -82,12 +82,7 @@ repository: mzlogin/mzlogin.github.io
 # ---------------- #
 #      Socials     #
 # ---------------- #
-github_username: mzlogin
-douban_username: freedim
-facebook_username: mzlogin
-weibo_username: mzlogin
-zhihu_username: mzlogin
-twitter_username: mzlogin
+github_username: SnailWhb
 
 # ---------------- #
 #      Comments    #
@@ -96,8 +91,8 @@ twitter_username: mzlogin
 comments_provider: duoshuo
 # !!!重要!!! 请修改下面两个用户名为你自己申请的
 # !!!Important!!! Please modify usernames below to yours
-duoshuo_username: mazhuang
-disqus_username: mzlogin
+duoshuo_username: SnailWhb.github.io
+disqus_username: SnailWhb
 # 在使用一个时可点击显示另一个
 lazy_load_another : true
 
