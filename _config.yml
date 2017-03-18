@@ -5,7 +5,7 @@ baseurl:
 url: http://SnailWhb.github.io
 date_format: "ordinal"
 title: 灬丶斌视野
-subtitle: "，吾将上下而求索"
+subtitle: "吾将上下而求索"
 description: "斌的个人博客"
 keywords: 视野,  灬斌, Snail
 favicon: /favicon.ico
@@ -28,7 +28,7 @@ email: whb@bupt.edu.cn
 navs:
   -
     href: /
-    label: 首页
+    label: Home
 
   -
     href: /categories/
@@ -40,11 +40,11 @@ navs:
 
   -
     href: /links/
-    label: Links
+    label: Bookmarks
 
   -
     href: /about/
-    label: Me
+    label: About
 
 # ---------------- #
 #       RSS        #
