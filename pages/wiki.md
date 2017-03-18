@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Blog
-description: 记录让自己更加优秀
-keywords: blog, 
+description: 记录让你我更加优秀
+keywords: Blog
 comments: false
-menu: Blog
+menu: 博客
 permalink: /wiki/
 ---
 
-> 记录让自己更加优秀
+> 记多少命令和快捷键会让脑袋爆炸呢？
 
 <ul class="listing">
 {% for wiki in site.wiki %}
