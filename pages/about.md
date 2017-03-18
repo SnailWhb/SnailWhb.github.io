@@ -5,13 +5,13 @@ description: 混沌的世界，有序的人生
 keywords:Snail,Whb 视野
 comments: true
 menu: 关于
-permalink: 
-#about
+permalink: /about/
+
 ---
 
-I am bin，one happy snail。
+I am Wang huobin，one happy snail。
 
-仰慕「优雅编码的艺术」。
+没有失败的人生，说明他没有创造力！
 
 ## 坚信
 * 乐观的人生总不会太过糟糕
