@@ -8,7 +8,7 @@ menu: 关于
 permalink: /about/
 ---
 
-I am Whb，one happy snail.
+> I am Whb，one happy snail.
 
 
 ## 坚信
