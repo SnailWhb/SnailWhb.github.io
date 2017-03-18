@@ -1,3 +1,4 @@
+
 ---
 layout: page
 title: About
@@ -6,19 +7,13 @@ keywords:Snail,Whb 视野
 comments: true
 menu: 关于
 permalink: /about/
-<<<<<<< HEAD
-
 ---
 
-I am Wang huobin，one happy snail。
-
-没有失败的人生，说明他没有创造力！
-=======
----
 
 > I am Whb，one happy snail.
 
->>>>>>> origin/master
+I am Wang huobin，one happy snail.
+没有失败的人生，说明他没有创造力！
 
 ## 坚信
 * 乐观的人生总不会太过糟糕
