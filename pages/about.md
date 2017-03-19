@@ -20,13 +20,14 @@ I am Wang huobin，one happy snail.
 * 熟能生巧
 * 努力改变人生
 
-## 联系
 
+## 联系
+---
 * GitHub：[@SnaiWhb](https://github.com/SnailWhb)
 * 博客：[灬丶斌视野](http://blog.sina.com.cn/u/2517674831)
 * 微博园: [@视野](https://home.cnblogs.com/u/whb-20160329/)
 * 知乎: [@snailwhb](https://www.zhihu.com/people/snailwhb/)
 * 科学网：[wangHUOBIN](http://blog.sciencenet.cn/u/wangHUOBIN)
-
+---
 
 
