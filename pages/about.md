@@ -1,9 +1,8 @@
-
 ---
 layout: page
 title: About
 description: 混沌的世界，有序的人生
-keywords:Snail,Whb 视野
+keywords: Snail, Whb
 comments: true
 menu: 关于
 permalink: /about/
