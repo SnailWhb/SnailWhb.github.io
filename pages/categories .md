@@ -7,6 +7,7 @@ comments: false
 menu: 分类
 permalink: /categories/
 ---
+> 任何事物都有规律
 
 <section class="container posts-content">
 {% assign sorted_categories = site.categories | sort %}
